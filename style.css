@@ -1,0 +1,125 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.logo{
+    font-family: arial;
+    font-size: 32px;
+    padding-left: 60px;
+    padding-top: 28px;
+}
+header{
+  display: flex;
+ justify-content: space-between;
+ background-color: white;
+ height: 90px;
+ border: 0.1px solid rgb(212, 208, 208);
+ width: auto;
+opacity: 1;
+}
+nav ul{
+    display: inline;
+    display: flex;
+    padding-top: 30px;
+    padding-right:60px ;
+    gap: 50px;
+    list-style: none;
+    font-size: 20px;
+  
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.imge img{
+    width: 800px;
+    max-width: 800px;
+    display: block;
+    height: auto;
+    margin: 0% auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+.content-1{
+    font-size: 54px ;
+    text-align: center;
+    padding-top: 50px;
+
+}
+.content-2{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+    font-weight: 400px;
+}
+.divider{
+ border: none; 
+  height: 2px; 
+  background-color: black; 
+  width: 50%;
+  margin: 40px auto; 
+}
+.articles-grid {
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    gap: 40px; 
+    max-width: 900px; 
+    margin: 0 auto;
+}
+
+.article-card {
+    text-decoration: none; 
+    color: black;
+    
+}
+
+.article-card img {
+    width: 80%; 
+    height: 200px;
+    display: block;
+    padding-left: 70px;
+    padding-top: 30px;
+}
+
+.card-text {
+    text-align: center; 
+    margin-top: 15px;
+     padding: 0 80px;
+}
+.card-text h4{
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
+    font-size: 16px; 
+    line-height: 1.2;
+}
+
+.divider-2{
+    border: none;
+    height: 1px;
+    background-color: black;
+    width: 50%;
+    margin: 40px auto;
+}
+
+
+footer{
+    text-align: center; 
+    padding: 30px 0; 
+    background-color: black;
+}
+
+.footer-content{
+        font-family: 'Times New Roman', Times, serif;
+         color: white;
+           font-size: 14px
+}
+
+
+footer p{
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 14px;
+    padding-top: 30px;
+    color: white;
+}
